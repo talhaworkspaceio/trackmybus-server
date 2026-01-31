@@ -217,7 +217,7 @@ eventsRef.on('child_added', async snap => {
     tokens,
     notification: { title, body },
     android: {
-      notification: { channelId: 'default', smallIcon: 'ic_notification',},
+      notification: { channelId: 'default', smallIcon: 'ic_notification'},
     },
     apns: {
       payload: {
